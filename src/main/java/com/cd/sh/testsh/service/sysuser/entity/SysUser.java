@@ -6,14 +6,18 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="sys_user")
+@Table(name = "sys_user")
 public class SysUser {
     @Id
+    @Column(name = "user_id")
     private Integer id;
+
+    @Column(name = "user_name")
     private String Name;
+
+    @Column(name = "user_email")
     private String Email;
 
-    @Column(name = "user_id")
     public Integer getId() {
         return id;
     }
@@ -22,7 +26,6 @@ public class SysUser {
         this.id = id;
     }
 
-    @Column(name = "user_name")
     public String getName() {
         return Name;
     }
@@ -31,7 +34,6 @@ public class SysUser {
         Name = name;
     }
 
-    @Column(name = "user_email")
     public String getEmail() {
         return Email;
     }
