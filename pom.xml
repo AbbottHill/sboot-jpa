@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.cd.sh</groupId>
-	<artifactId>test-sh</artifactId>
+	<artifactId>sboot-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>test-sh</name>
-	<description>Demo project for Spring Boot</description>
+	<name>sboot-jpa</name>
+	<description>spring boot, hibernate</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
